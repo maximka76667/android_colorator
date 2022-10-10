@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="84dp">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textRed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/red" />
+
+            <TextView
+                android:id="@+id/textGreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/green" />
+
+            <TextView
+                android:id="@+id/textBlue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/blue" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="300dp"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/inputRed"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:inputType="number"
+                android:text="0" />
+
+            <EditText
+                android:id="@+id/inputGreen"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:inputType="number"
+                android:text="0" />
+
+            <EditText
+                android:id="@+id/inputBlue"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:inputType="number"
+                android:text="0" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/tvColor"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:text="Hello"
+        android:background="@color/black"
+        />
+
+</LinearLayout>
